@@ -554,6 +554,7 @@ button, .show-less-button {
   grid-gap: 50px;
   max-width: 50%;
   margin: 0 auto;
+  min-width: 1000px;
 }
 .education-container .box-content {
   font-family: "Rubik", sans-serif;
@@ -728,6 +729,7 @@ button, .show-less-button {
 
 @media (max-width: 1300px) {
   .education-container {
+    min-width: 0;
     grid-template-columns: 200px 1fr;
     max-width: 80%;
   }

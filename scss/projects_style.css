@@ -6,6 +6,7 @@
   max-height: 550px;
   overflow: hidden;
   position: relative;
+  margin: 40px 0;
 }
 
 .projects-item {
